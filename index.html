@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PressureNY - Streetwear auténtico nacido en Nueva York. Colección FW2025 disponible. Define tu propio estilo con ropa urbana de calidad premium.">
+  <meta name="keywords" content="streetwear, ropa urbana, Nueva York, fashion, PressureNY, hoodies, camisetas, joggers">
+  <meta name="author" content="PressureNY">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pressureny.vercel.app/">
+  <meta property="og:title" content="PressureNY - Streetwear Auténtico">
+  <meta property="og:description" content="Define tu propio estilo con la nueva colección FW2025. Streetwear auténtico para quienes crean tendencias.">
+  <meta property="og:image" content="https://static.wixstatic.com/media/3347b2_9324331048e54ca28691863f210fc5cd~mv2.jpg/v1/fill/w_1350,h_453,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3347b2_9324331048e54ca28691863f210fc5cd~mv2.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://pressureny.vercel.app/">
+  <meta property="twitter:title" content="PressureNY - Streetwear Auténtico">
+  <meta property="twitter:description" content="Define tu propio estilo con la nueva colección FW2025. Streetwear auténtico para quienes crean tendencias.">
+  <meta property="twitter:image" content="https://static.wixstatic.com/media/3347b2_9324331048e54ca28691863f210fc5cd~mv2.jpg/v1/fill/w_1350,h_453,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3347b2_9324331048e54ca28691863f210fc5cd~mv2.jpg">
+
+  <title>PressureNY - Streetwear Auténtico</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+</head>
+<body>
+  <header>
+    <div class="logo">Pressure<span>NY</span></div>
+    <nav id="mainNav">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#coleccion">Colección</a></li>
+        <li><a href="#lookbook">Lookbook</a></li>
+        <li><a href="#acerca">Acerca de</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="action-btns">
+      <button id="searchBtn" aria-label="Buscar">🔍</button>
+      <button id="cartBtn" aria-label="Carrito de compras">🛒 <span id="cartCount">0</span></button>
+      <button id="userBtn" aria-label="Cuenta de usuario">👤</button>
+      <button id="menuToggle" class="menu-toggle" aria-label="Menú">☰</button>
+    </div>
+  </header>
+  
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <h1>DEFINE TU PROPIO ESTILO</h1>
+        <p>La nueva colección PressureNY FW2025 está aquí. Streetwear auténtico para quienes crean tendencias, no las siguen.</p>
+        <button class="cta-btn" id="shopNowBtn">Comprar ahora</button>
+      </div>
+    </section>
+    
+    <section id="coleccion" class="featured">
+      <h2>Destacados</h2>
+      <div class="products" id="productsGrid">
+        <div class="product" data-id="1" data-price="89.99">
+          <div class="product-img">
+            <img src="https://hellstar.com/cdn/shop/files/Artboard29_35d3eac9-97c4-4355-b6b4-c8dd254cdc02.jpg?v=1744405981&width=460" alt="PressureNY Hoodie Negro" loading="lazy" />
+            <div class="product-overlay">
+              <button class="quick-view" data-id="1">Vista rápida</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Hoodie Urban Pressure</h3>
+            <div class="product-price">
+              <span class="price">$89.99</span>
+              <button class="add-cart" data-id="1" data-name="Hoodie Urban Pressure" data-price="89.99">+ Añadir</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product" data-id="2" data-price="49.99">
+          <div class="product-img">
+            <img src="https://hellstar.com/cdn/shop/files/Artboard40_ccd1f56b-6183-41a6-b9cb-db253039b3ff.jpg?v=1744998749&width=460" alt="PressureNY Camiseta Gráfica" loading="lazy" />
+            <div class="product-overlay">
+              <button class="quick-view" data-id="2">Vista rápida</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Camiseta Gráfica NYC</h3>
+            <div class="product-price">
+              <span class="price">$49.99</span>
+              <button class="add-cart" data-id="2" data-name="Camiseta Gráfica NYC" data-price="49.99">+ Añadir</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product" data-id="3" data-price="79.99">
+          <div class="product-img">
+            <img src="https://hellstar.com/cdn/shop/files/2025.03.24.Hellstar-160_1.jpg?v=1744396683&width=460" alt="PressureNY Joggers" loading="lazy" />
+            <div class="product-overlay">
+              <button class="quick-view" data-id="3">Vista rápida</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Joggers Premium Tech</h3>
+            <div class="product-price">
+              <span class="price">$79.99</span>
+              <button class="add-cart" data-id="3" data-name="Joggers Premium Tech" data-price="79.99">+ Añadir</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product" data-id="4" data-price="34.99">
+          <div class="product-img">
+            <img src="https://static.wixstatic.com/media/3347b2_b8dd4f787097421d84a3e82cb7f8f707~mv2.jpg/v1/fill/w_463,h_463,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3347b2_b8dd4f787097421d84a3e82cb7f8f707~mv2.jpg" alt="PressureNY Gorra" loading="lazy" />
+            <div class="product-overlay">
+              <button class="quick-view" data-id="4">Vista rápida</button>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Gorra Snapback Pressure</h3>
+            <div class="product-price">
+              <span class="price">$34.99</span>
+              <button class="add-cart" data-id="4" data-name="Gorra Snapback Pressure" data-price="34.99">+ Añadir</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="acerca" class="about">
+      <h2>Nuestra Historia</h2>
+      <p>PressureNY nació en las calles de Nueva York en 2018, cuando un grupo de artistas, skaters y diseñadores se unieron con la misión de crear ropa que representara la verdadera cultura urbana. No seguimos tendencias, las creamos. Cada pieza está diseñada con un propósito y fabricada con los mejores materiales para durar y resistir la presión diaria de la vida urbana.</p>
+      <button class="cta-btn" id="learnMoreBtn">Conoce más</button>
+    </section>
+  </main>
+  
+  <footer id="contacto">
+    <div class="footer-content">
+      <div class="footer-col">
+        <h3>PressureNY</h3>
+        <ul>
+          <li><a href="#acerca">Acerca de nosotros</a></li>
+          <li><a href="#tiendas">Tiendas</a></li>
+          <li><a href="#careers">Trabaja con nosotros</a></li>
+          <li><a href="#sustentabilidad">Sustentabilidad</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Ayuda</h3>
+        <ul>
+          <li><a href="#faq">Preguntas frecuentes</a></li>
+          <li><a href="#shipping">Envíos y devoluciones</a></li>
+          <li><a href="#size-guide">Guía de tallas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="#terms">Términos y condiciones</a></li>
+          <li><a href="#privacy">Política de privacidad</a></li>
+          <li><a href="#cookies">Política de cookies</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Síguenos</h3>
+        <ul>
+          <li><a href="https://instagram.com/pressureny" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://tiktok.com/@pressureny" target="_blank" rel="noopener">TikTok</a></li>
+          <li><a href="https://twitter.com/pressureny" target="_blank" rel="noopener">Twitter</a></li>
+          <li><a href="https://youtube.com/pressureny" target="_blank" rel="noopener">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="copyright">
+      © 2025 PressureNY. Todos los derechos reservados.
+    </div>
+  </footer>
+
+  <!-- Cart Modal -->
+  <div id="cartModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Carrito de Compras</h3>
+        <span class="close">&times;</span>
+      </div>
+      <div class="modal-body">
+        <div id="cartItems"></div>
+        <div class="cart-total">
+          <strong>Total: $<span id="cartTotal">0.00</span></strong>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button id="checkoutBtn" class="cta-btn">Finalizar Compra</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification -->
+  <div id="notification" class="notification"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
