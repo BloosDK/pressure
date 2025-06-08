@@ -143,4 +143,4 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ---
 
-**Made with ❤️ in New York City**
+**Made in New York City**
